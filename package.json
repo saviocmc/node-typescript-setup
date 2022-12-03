@@ -1,0 +1,26 @@
+{
+  "scripts": {
+    "lint": "eslint src && tsc --noEmit",
+    "dev": "nodemon src/main.ts",
+    "start": "ts-node src/main.ts"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@tsconfig/node18-strictest": "^1",
+    "@types/node": "^18",
+    "eslint": "^8",
+    "eslint-config-universe": "^11",
+    "nodemon": "^2",
+    "prettier": "^2",
+    "ts-node": "^10",
+    "typescript": "^4"
+  },
+  "eslintConfig": {
+    "root": true,
+    "extends": "universe/node"
+  },
+  "prettier": {
+    "singleQuote": true
+  },
+  "private": true
+}
