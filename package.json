@@ -6,14 +6,14 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "@tsconfig/node18-strictest": "^1",
-    "@types/node": "^18",
+    "@tsconfig/node20": "^20",
+    "@types/node": "^20",
     "eslint": "^8",
-    "eslint-config-universe": "^11",
-    "nodemon": "^2",
-    "prettier": "^2",
+    "eslint-config-universe": "^12",
+    "nodemon": "^3",
+    "prettier": "^3",
     "ts-node": "^10",
-    "typescript": "^4"
+    "typescript": "^5"
   },
   "eslintConfig": {
     "root": true,
